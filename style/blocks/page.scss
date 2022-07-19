@@ -1,0 +1,31 @@
+.page {
+  min-width: 1024px;
+
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 27px;
+  color: $page-color-font;
+
+  &__top-panel {
+  }
+
+  &__top-menu {
+    min-width: 1024px;
+  }
+
+  &__main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+ 
+
+  &__navigation {
+    margin-bottom: 40px;
+    // margin: 0 auto;
+  }
+}

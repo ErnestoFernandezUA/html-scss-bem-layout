@@ -1,0 +1,31 @@
+.main {
+  // grid-template-rows: auto auto 1fr;
+  // align-items: flex-end;
+
+  &> {
+    box-sizing: border-box;
+  }
+
+  &> :not(:nth-child(-n + 3)) {
+    margin-bottom: 10px;
+  } 
+
+  &__blog {
+    margin-bottom: 30px;
+  }
+
+  &__recent-posts {
+    grid-row: 3 / 12;
+    border-right: 1px solid red;
+    // height: fit-content;
+  }
+
+  &__form-search {
+  }
+
+  &__sidebar {
+    
+  }
+
+
+}

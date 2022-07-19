@@ -1,0 +1,22 @@
+.button {
+  display: inline-block;
+  padding: 0 35px;
+  border-radius: 30px;
+  
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: white;
+  border: none;
+  background: linear-gradient(0deg, #4CB649 0%, #5DDF5A 100%);
+  line-height: 40px;
+  
+  &--active {
+    color: $top-menu-button-gradient1;
+    border: 1px solid #4CB649;
+    background: #fff;
+    line-height: 38px;
+  }
+}

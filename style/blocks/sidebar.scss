@@ -1,0 +1,57 @@
+.sidebar {
+  margin-left: 59px;
+  padding-left: 0;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #EBECED;
+  
+
+  &--form {
+    margin-left: 59px;
+  }
+
+  &__icon {
+    width: 58px;
+  }
+
+  &__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    color: #22252E;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  &__list {
+    // list-style: disc;
+    list-style: none;
+    list-style-position: inside;
+    margin-bottom: 16px;
+    
+  }
+
+  &__item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #323642;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      left: -10px;
+      top: 0;
+      content:"\2022  ";
+      color: $sidebar-list-icon;
+      // color: red;
+      width: 15px;
+    }
+  }
+}

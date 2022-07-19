@@ -1,0 +1,20 @@
+@import "./reset";
+@import "./variables";
+@import "./normalize";
+@import "./mixins";
+
+@import "./blocks/page.scss";
+@import "./blocks/top-panel.scss";
+@import "./blocks/urgent-triangle.scss";
+
+@import "./blocks/top-menu.scss";
+@import "./blocks/navigation-triangle.scss";
+@import "./blocks/button.scss";
+
+@import "./blocks/main.scss";
+@import "./blocks/blog.scss";
+@import "./blocks/navigation.scss";
+
+@import "./blocks/grid.scss";
+@import "./blocks/search-input.scss";
+@import "./blocks/sidebar.scss";

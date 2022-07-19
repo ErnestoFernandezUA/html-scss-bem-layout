@@ -1,0 +1,31 @@
+.form-search {
+
+
+  & input {
+    height: 59px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #D7D8D9;
+    border-radius: 4px;
+    padding: 0 12px 0 58px;
+    background: url(../../images/icon/search.svg);
+    background-repeat:no-repeat;
+    background-position: 20px 50%;
+    background-size: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #22252E;
+    
+
+    &:focus {
+      outline: 2px solid $top-menu-button-gradient1;
+    }
+  }
+
+}
