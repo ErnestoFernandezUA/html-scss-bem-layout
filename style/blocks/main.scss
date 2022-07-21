@@ -1,26 +1,41 @@
 .main {
-  // grid-template-rows: auto auto 1fr;
-  // align-items: flex-end;
+  &__section-1 {
+
+  }
+
+  &__section-2 {
+
+  }
 
   &> {
     box-sizing: border-box;
   }
 
-  &> :not(:nth-child(-n + 3)) {
-    margin-bottom: 10px;
-  } 
-
   &__blog {
     margin-bottom: 30px;
+
+    &--top {
+      margin-bottom: 30px;
+    }
   }
+
+  &__navigation {
+    margin-bottom: 40px;
+  }
+
+
+  // &> :not(:nth-child(-n + 3)) {
+  //   margin-bottom: 10px;
+  // } 
+  
 
   &__recent-posts {
     grid-row: 3 / 12;
-    border-right: 1px solid red;
-    // height: fit-content;
   }
-
+  
   &__form-search {
+    border-right: 1px solid red;
+    margin-bottom: 30px;
   }
 
   &__sidebar {

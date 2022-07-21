@@ -1,40 +1,39 @@
 .sidebar {
-  margin-left: 59px;
-  padding-left: 0;
-  padding-bottom: 28px;
+  // margin-left: 59px;
+  // padding-left: 59px;
+  // padding-bottom: 28px;
   border-bottom: 1px solid #EBECED;
   
-
-  &--form {
-    margin-left: 59px;
-  }
-
   &__icon {
+    display: block;
     width: 58px;
+    margin-right: 20px;
   }
-
+  
   &__title {
+    display: block;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
     line-height: 34px;
     color: #22252E;
-    margin-bottom: 20px;
-
+    margin-bottom: 25px;
+    
     display: flex;
     justify-content: start;
     align-items: center;
   }
-
+  
   &__list {
-    // list-style: disc;
     list-style: none;
     list-style-position: inside;
     margin-bottom: 16px;
-    
+    display: flex;
+    flex-direction: column;
+    gap: 15.5px;
   }
-
+  
   &__item {
     font-family: 'Roboto';
     font-style: normal;
@@ -43,15 +42,19 @@
     line-height: 22px;
     color: #323642;
     position: relative;
-
+    
     &::before {
       position: absolute;
       left: -10px;
       top: 0;
       content:"\2022  ";
       color: $sidebar-list-icon;
-      // color: red;
       width: 15px;
     }
+  }
+
+  &--form {
+    margin-left: 50px;
+    margin-bottom: 31px;
   }
 }

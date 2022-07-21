@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   column-gap: 20px;
+  // row-gap: 22px;
 
   &__item {
     @for $start from 1 through 12 {
